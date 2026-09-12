@@ -29,17 +29,17 @@ store_type = st.selectbox(
 
 # Convert user input into a DataFrame
 input_data = pd.DataFrame([{
-    'product_id': product_id,
-    'product_weight': product_weight,
-    'Product Sugar Conten': sugar,
+    'Product_Id': product_id,
+    'Product_Weight': product_weight,
+    'Product Sugar Content': sugar,
     'Product Allocated Area': allocated_area,
     'Product Type': product_type,
-    'Product MRP' : Product MRP.
-    'store_id': store_id,
-    'establishment_year': establishment_year,
-    'store_size': store_size,
-    'city_type': city_type,
-    'store_type': store_type
+    'Product_MRP' : mrp.
+    'Store_Id': store_id,
+    'Store_Establishment_Year': establishment_year,
+    'Store_Size': store_size,
+    'Store_Location_City_Type': city_type,
+    'Store_Type': store_type
 }])
 
 # Make prediction when the "Predict" button is clicked
